@@ -406,3 +406,9 @@ html[data-contrast="high"] .page-hero { background: #000; }
 }
 .timeline .cv-list li { padding: 0; margin-bottom: .25em; list-style: disc; }
 .timeline .cv-list li::before { content: none; }
+
+/* ---------- LinkedIn ---------- */
+.li-link { display: inline-flex; align-items: center; gap: 8px; font-weight: 700; }
+.li-link svg { flex: none; }
+.cv-print { display: flex; flex-direction: column; gap: 10px; }
+.cv-print .btn svg { flex: none; }
