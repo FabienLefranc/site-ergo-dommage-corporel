@@ -330,9 +330,9 @@ fieldset.field { border: 0; padding: 0; margin: 0 0 18px; }
 .info-card dd { margin: 4px 0 0; font-size: 1.08rem; }
 
 /* France / zone */
-.zone { display: grid; grid-template-columns: auto 1fr; gap: 28px; align-items: center; }
+.zone { display: grid; grid-template-columns: 1fr; gap: 20px; align-items: center; }
 .zone svg { width: 200px; height: auto; }
-@media (max-width: 640px) { .zone { grid-template-columns: 1fr; } .zone svg { margin: 0 auto; } }
+.zone .zone-map { display: block; width: 100%; height: auto; border-radius: 10px; }
 
 /* Note / encadré */
 .note { background: var(--petrol-soft); border-left: 5px solid var(--petrol); border-radius: 0 var(--radius) var(--radius) 0; padding: 20px 24px; }
